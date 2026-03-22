@@ -1,35 +1,144 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Hypeboxed</title>
+  <title>Hypeboxed | Corporate Gifting</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
-      font-family: Arial;
-      margin: 40px;
-      line-height: 1.6;
-      max-width: 800px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto;
+      margin: 0;
+      background: #f8f9fb;
+      color: #111;
     }
-    h1 { color: #111; }
-    h2 { margin-top: 30px; }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      margin-top: 40px;
+      font-size: 24px;
+    }
+    p {
+      color: #555;
+      line-height: 1.6;
+    }
+    .hero {
+      padding: 80px 20px;
+      background: white;
+      text-align: center;
+    }
+    .cta {
+      margin-top: 20px;
+    }
+    .btn {
+      background: #111;
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      display: inline-block;
+    }
+    .section {
+      background: white;
+      margin-top: 20px;
+      padding: 30px;
+      border-radius: 10px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: #777;
+      font-size: 14px;
+    }
+    @media(max-width: 700px){
+      .grid { grid-template-columns: 1fr; }
+      h1 { font-size: 28px; }
+    }
   </style>
 </head>
+
 <body>
 
-  <h1>Hypeboxed</h1>
-  <p><b>Premium Corporate Gifting Solutions</b></p>
+  <!-- HERO -->
+  <div class="hero">
+    <div class="container">
+      <h1>Premium Corporate Gifting That Builds Real Relationships</h1>
+      <p>We help companies create memorable gifting experiences for employees, clients, and partners through curated, high-quality gift boxes.</p>
+      
+      <div class="cta">
+        <a href="mailto:rutvij@hypeboxed.xyz" class="btn">Request Catalogue</a>
+      </div>
+    </div>
+  </div>
 
-  <p>We help brands create memorable gifting experiences through curated, high-quality gift boxes for employees, clients, and events.</p>
+  <!-- TRUST -->
+  <div class="container">
+    <div class="section">
+      <p><b>Trusted by growing teams across India for employee engagement, client retention, and brand building.</b></p>
+    </div>
 
-  <h2>About</h2>
-  <p>Hypeboxed is a corporate gifting company focused on delivering premium, customized gifting solutions for businesses.</p>
+    <!-- SERVICES -->
+    <div class="section">
+      <h2>What We Offer</h2>
+      <div class="grid">
+        <div>
+          <p><b>Employee Gifting</b><br>Onboarding kits, festive gifts, rewards & recognition boxes.</p>
+        </div>
+        <div>
+          <p><b>Client Gifting</b><br>Premium curated gifts to strengthen business relationships.</p>
+        </div>
+        <div>
+          <p><b>Custom Branding</b><br>Fully personalized packaging aligned with your brand.</p>
+        </div>
+        <div>
+          <p><b>Bulk & Enterprise Orders</b><br>Seamless execution for large teams and organizations.</p>
+        </div>
+      </div>
+    </div>
 
-  <h2>Contact</h2>
-  <p>Email: rutvij@hypeboxed.xyz</p>
-  <p>Location: New Delhi, India</p>
+    <!-- WHY US -->
+    <div class="section">
+      <h2>Why Hypeboxed</h2>
+      <div class="grid">
+        <div>
+          <p>✔ Premium product sourcing</p>
+          <p>✔ Fully customized gifting solutions</p>
+        </div>
+        <div>
+          <p>✔ Reliable execution & delivery</p>
+          <p>✔ Designed for modern brands</p>
+        </div>
+      </div>
+    </div>
 
-  <h2>Privacy Policy</h2>
-  <p>Your information is kept secure and is never shared with third parties.</p>
+    <!-- USE CASES -->
+    <div class="section">
+      <h2>Who We Work With</h2>
+      <p>Startups, enterprises, HR teams, marketing teams, and founders looking to create meaningful brand touchpoints through gifting.</p>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="section">
+      <h2>Get in Touch</h2>
+      <p>Email: rutvij@hypeboxed.xyz</p>
+      <p>Location: New Delhi, India</p>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    © Hypeboxed. All rights reserved.
+  </div>
 
 </body>
 </html>
